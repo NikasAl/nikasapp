@@ -55,7 +55,7 @@ h6 {
 	width: 100%;
 	min-height: 960px;
 	position: relative;
-	background: url(img/bg.jpg);
+	background: url(/img/bg.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -492,7 +492,7 @@ a.click-down:hover {
 	}
 	
 .bcg {
-	background-image: url(img/bcg_slide-3.jpg);
+	background-image: url(/img/bcg_slide-3.jpg);
 	background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -820,7 +820,7 @@ textarea.form-control {
 	width: 100%;
 	min-height: 360px;
 	position: relative;
-	background: url(img/bg.jpg);
+	background: url(/img/bg.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover; 

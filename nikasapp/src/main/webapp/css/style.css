@@ -319,11 +319,11 @@ a.click-down:hover {
 .creative-minds .col-cm:hover .cm-title, .creative-minds .col-cm:hover .cm-descr {
 	display: block; }
 
-.row-cm { margin-left: -5px; }
+.row-cm { margin-left: 20%; }
 .row-cm:before, .row-cm:after { content: " "; display: table; }
 .row-cm:after { clear: both; }
 .row-cm .col-cm { margin-bottom: 20px; text-align: center; position: relative; min-height: 1px; padding-left: 5px; padding-right: 5px; overflow: hidden; }
-@media (min-width: 768px) { .row-cm .col-cm { float: left; width: 33.33333%;  min-height:535px;} }
+@media (min-width: 768px) { .row-cm .col-cm { float: left; width: 40%;  min-height:535px;} }
 
 
 

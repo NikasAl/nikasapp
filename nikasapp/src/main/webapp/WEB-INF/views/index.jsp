@@ -151,9 +151,9 @@
                 <div class="" >
                     <ul class="nav nav-pills nav-justified">
                         <li class="active"><a href="#sTop"><i class="fa fa-cog"></i>About</a></li>
-                        <li><a href="#s1"><i class="fa fa-users"></i>Team</a></li>
-                        <li><a href="#s2"><i class="fa fa-cogs"></i>Services</a></li>
-                        <li><a href="#s3"><i class="fa fa-picture-o"></i>Portfolio</a></li>
+                        <%--<li><a href="#s1"><i class="fa fa-users"></i>Team</a></li>--%>
+                        <%--<li><a href="#s2"><i class="fa fa-cogs"></i>Services</a></li>--%>
+                        <li><a href="#s2"><i class="fa fa-picture-o"></i>Our Apps</a></li>
                         <li><a href="#s6"><i class="fa fa-pencil-square-o"></i>Blog</a></li>
                         <li><a href="#s7"><i class="fa fa-comment"></i>Contact</a></li>
                     </ul>
@@ -193,7 +193,6 @@
                             <li><a href="#s2" class="subNavBtn">Our Work</a></li>
                             <li><a href="#s3" class="subNavBtn">Services</a></li>
                             <li><a href="#s4" class="subNavBtn">Testimonials</a></li>
-                            <li><a href="#s5" class="subNavBtn">Pricing</a></li>
                             <li><a href="#s6" class="subNavBtn">Blog</a></li>
                             <li><a href="#s7" class="subNavBtn">Contact</a></li>
                           </ul>
@@ -204,9 +203,8 @@
                     <div class="inner pull-right">
                         <a href="#about" class="subNavBtn">About Us</a>
                         <a href="#s2" class="subNavBtn">Our Work</a>
-                        <a href="#s3" class="subNavBtn">Services</a>
-                        <a href="#s4" class="subNavBtn">Testimonials</a>
-                        <a href="#s5" class="subNavBtn">Pricing</a>
+                        <%--<a href="#s3" class="subNavBtn">Services</a>--%>
+                        <%--<a href="#s4" class="subNavBtn">Testimonials</a>--%>
                         <a href="#s6" class="subNavBtn">Blog</a>
                         <a href="#s7" class="subNavBtn">Contact</a>
                     </div>
@@ -218,8 +216,11 @@
     <div class="section about">
         <div class="inner ">
             <div class="about-artical">
-                <h2>Creative Minds</h2>
-                <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you.</p>
+                <h2>Nikas Apps</h2>
+                <p>
+                    We are team of creative engineers. We passionate with web & android development and other creative things.
+                    If you are looking for android games with endless possibilities, you come in right place.
+                </p>
 
                 <div class="creative-minds">
                     <div class="row-cm">
@@ -228,25 +229,18 @@
                                 <img alt="" src="img/c-1.jpg">
                                 <figcaption></figcaption>
                             </figure>
-                            <h4 class="cm-title" data-animate="fadeInDown" style="">John Doe</h4>
-                            <p class="cm-descr">Graphic Designer</p>
-                        </div>
-                        <div class="col-cm">
-                            <figure class="cm-item">
-                                <img alt="" src="img/c-2.jpg">
-                                <figcaption></figcaption>
-                            </figure>
-                            <h4 class="cm-title" data-animate="fadeInDown" style="">John Doe</h4>
-                            <p class="cm-descr">Graphic Designer</p>
+                            <h4 class="cm-title" data-animate="fadeInDown" style="">Nikita</h4>
+                            <p class="cm-descr">App Development</p>
                         </div>
                         <div class="col-cm">
                             <figure class="cm-item">
                                 <img alt="" src="img/c-3.jpg">
                                 <figcaption></figcaption>
                             </figure>
-                            <h4 class="cm-title" data-animate="fadeInDown" style="">John Doe</h4>
-                            <p class="cm-descr">Graphic Designer</p>
+                            <h4 class="cm-title" data-animate="fadeInDown" style="">Kate</h4>
+                            <p class="cm-descr">App Development</p>
                         </div>
+
                     </div>
                 </div><!-- /creative-minds -->
 
@@ -256,12 +250,12 @@
                     <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Dribbble"><i class="fa fa-dribbble"></i></a>
                     <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
                     <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google plus"><i class="fa fa-google-plus"></i></a>
-
                 </div>
 
             </div><!-- /about-artical -->
         </div>
 
+<%--
         <div class="about-f">
 
             <div class="container">
@@ -352,6 +346,7 @@
             </div><!-- /container -->
 
         </div><!-- /about-f -->
+--%>
 
     </div>
 
@@ -569,6 +564,7 @@
     </div>
 
 
+<%--
 
     <div class="section s3">
         <div class="inner">
@@ -622,7 +618,9 @@
             </div>
         </div>
     </div>
+--%>
 
+<%--
     <div class="section s4">
         <div class="inner">
             <div class="container">
@@ -668,110 +666,17 @@
             </div>
         </div>
     </div>
+
+--%>
+
     <div class="transparent-bg">
         <div class="bcg">
             <div class="bcg-bg">
-                <h1>"You only live once, but if you do it right, once is enough."</h1>
-                <h6>Mae West</h6>
+                <h1>"Games is the engine of progress."</h1>
+                <h6>Nikas</h6>
             </div>
         </div>
     </div><!-- /transparent-bg -->
-
-
-    <div class="section s5" id="s5">
-        <div class="inner">
-            <div class="pricing">
-                <div class="container">
-                    <div class="pricing-header">
-                        <h2>Our Pricing</h2>
-                        <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you.</p>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="pricing-box">
-                                <div class="pricing-head">
-                                    <h1 class="price">$500</h1>
-                                    <h4>Standard</h4>
-                                </div>
-                                <div class="pricing-row">
-                                    Creative Idea
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>24/7</strong>TECH SUPPORT
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>5</strong>PROJECTS
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>1GB</strong>STORAGE
-                                </div>
-                                <div class="pricing-row">
-                                    UNLIMITED USERS
-                                </div>
-                                <div class="pricing-row last">
-                                    <a href="#" class="submit">Buy It Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="pricing-box">
-                                <div class="pricing-head business">
-                                    <h1 class="price">$500</h1>
-                                    <h4>Standard</h4>
-                                </div>
-                                <div class="pricing-row">
-                                    Creative Idea
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>24/7</strong>TECH SUPPORT
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>5</strong>PROJECTS
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>1GB</strong>STORAGE
-                                </div>
-                                <div class="pricing-row">
-                                    UNLIMITED USERS
-                                </div>
-                                <div class="pricing-row last">
-                                    <a href="#" class="submit">Buy It Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="pricing-box">
-                                <div class="pricing-head">
-                                    <h1 class="price">$500</h1>
-                                    <h4>Standard</h4>
-                                </div>
-                                <div class="pricing-row">
-                                    Creative Idea
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>24/7</strong>TECH SUPPORT
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>5</strong>PROJECTS
-                                </div>
-                                <div class="pricing-row">
-                                    <strong>1GB</strong>STORAGE
-                                </div>
-                                <div class="pricing-row">
-                                    UNLIMITED USERS
-                                </div>
-                                <div class="pricing-row last">
-                                    <a href="#" class="submit">Buy It Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div><!--  /pricing  -->
-        </div>
-    </div>
 
     <div class="section s6">
         <div class="inner">
@@ -1010,6 +915,7 @@
 
                                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
+<%--
                                         <div class="address">
                                             <h3>Address:</h3>
                                             <i class="icons-marker icon-home"></i>
@@ -1035,13 +941,14 @@
                                                 </div>
                                             </div>
                                         </div><!--End address-->
+--%>
 
                                         <div class="address">
                                             <h3>Email:</h3>
                                             <div class="phone">
                                                 <i class="icon-envelope"></i>
                                                 <div class="email">
-                                                    <a href="#">mail@wpeden.com</a>
+                                                    <a href="mailto:nikita.avdonin@gmail.com?subject=Question From Site User">nikita.avdonin@gmail.com</a>
                                                 </div>
                                             </div>
                                         </div><!--End address-->
@@ -1071,7 +978,7 @@
             -->
 
             <div align="center" >
-                Nikas Games @ 2016
+                Nikas Apps @ 2016
             </div>
         </div>
     </div>

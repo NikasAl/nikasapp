@@ -469,7 +469,7 @@
     <div class="transparent-bg">
         <div class="bcg">
             <div class="bcg-bg">
-                <h1>"Games is the engine of progress."</h1>
+                <h1>"Game is the engine of progress."</h1>
                 <h6>Nikas</h6>
             </div>
         </div>
@@ -496,19 +496,19 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/img_mg1.png" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
+                                        <h3>Mahjong 3D Cube</h3>
                                         <p>A wonderful serenity has taken possession of my entire soul</p>
 
                                         <div class="blue-btn">
                                             <a class="first-link" href="blog.html">
-                                                read more
+                                                Get more
                                             </a>
                                             <a href="blog.html">
-                                                read more
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->
@@ -521,18 +521,18 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/img_bt1.png" class="img-responsive"  alt="Responsive image" />
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
+                                        <h3>Space Tanks</h3>
                                         <p>A wonderful serenity has taken possession of my entire soul</p>
 
                                         <div class="blue-btn">
                                             <a class="first-link" href="blog.html">
-                                                read more
+                                                Get more
                                             </a>
                                             <a href="blog.html">
-                                                read more
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->

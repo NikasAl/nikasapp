@@ -140,9 +140,7 @@
                 <div class="vticker">
                     <ul>
                         <li>WE ARE NIKAS</li>
-                        <li>WHO MAKES GAMES</li>
-                        <li>AND APPS FOR YOU</li>
-                        <li>PLAY THE GAMES</li>
+                        <li>PLAY OUR GAMES</li>
                         <li>AND BE HAPPY</li>
                     </ul>
                 </div>
@@ -151,10 +149,8 @@
                 <div class="" >
                     <ul class="nav nav-pills nav-justified">
                         <li class="active"><a href="#sTop"><i class="fa fa-cog"></i>About</a></li>
-                        <%--<li><a href="#s1"><i class="fa fa-users"></i>Team</a></li>--%>
-                        <%--<li><a href="#s2"><i class="fa fa-cogs"></i>Services</a></li>--%>
-                        <li><a href="#s2"><i class="fa fa-picture-o"></i>Our Apps</a></li>
-                        <li><a href="#s6"><i class="fa fa-pencil-square-o"></i>Blog</a></li>
+                        <li><a href="#s2"><i class="fa fa-picture-o"></i>Screens</a></li>
+                        <li><a href="#s6"><i class="fa fa-pencil-square-o"></i>Games</a></li>
                         <li><a href="#s7"><i class="fa fa-comment"></i>Contact</a></li>
                     </ul>
                 </div>
@@ -202,10 +198,10 @@
 
                     <div class="inner pull-right">
                         <a href="#about" class="subNavBtn">About Us</a>
-                        <a href="#s2" class="subNavBtn">Our Work</a>
+                        <a href="#s2" class="subNavBtn">Screens</a>
                         <%--<a href="#s3" class="subNavBtn">Services</a>--%>
                         <%--<a href="#s4" class="subNavBtn">Testimonials</a>--%>
-                        <a href="#s6" class="subNavBtn">Blog</a>
+                        <a href="#s6" class="subNavBtn">Games</a>
                         <a href="#s7" class="subNavBtn">Contact</a>
                     </div>
                 </div>
@@ -216,7 +212,7 @@
     <div class="section about">
         <div class="inner ">
             <div class="about-artical">
-                <h2>Nikas Apps</h2>
+                <h2>Nikas Games</h2>
                 <p>
                     We are team of creative engineers. We passionate with web & android development and other creative things.
                     If you are looking for android games with endless possibilities, you come in right place.
@@ -255,99 +251,6 @@
             </div><!-- /about-artical -->
         </div>
 
-<%--
-        <div class="about-f">
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-us-f">
-                            <h3>About Us</h3>
-                            <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you.</p>
-                            <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-us-f">
-                            <h3>Our Goals</h3>
-
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href=".collapseOne">
-                                                IMPRESSIVE TEMPLATE
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="" class="collapseOne panel-collapse collapse in">
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href=".collapseTwo">
-                                                TONS OF FEATURES
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="" class="collapseTwo panel-collapse collapse">
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href=".collapseThree">
-                                                CREATIVE LAYOUT
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="" class="collapseThree panel-collapse collapse">
-                                        <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div><!-- /.about-us-f -->
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="about-us-f">
-                            <h3>Our Goals</h3>
-
-                            <span class="sr-only">HTML <span class="pull-right">40%</span></span>
-                            <div class="progress top100">
-                                <div class="progress-bar progress-bar-pink" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                </div>
-                            </div>
-
-                            <span class="sr-only">Graphic <span class="pull-right">20%</span></span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-pink" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                </div>
-                            </div>
-                            <span class="sr-only">JS <span class="pull-right">60%</span></span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-pink" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- /container -->
-
-        </div><!-- /about-f -->
---%>
-
     </div>
 
     <div class="section s2">
@@ -356,11 +259,11 @@
 
             <div class="portfolioFilter">
 
-                <a href="#" data-filter="*" class="current">All Categories</a>
-                <a href="#" data-filter=".people">People</a>
-                <a href="#" data-filter=".places">Places</a>
-                <a href="#" data-filter=".food">Food</a>
-                <a href="#" data-filter=".objects">Objects</a>
+                <a href="#" data-filter="*">All Categories</a>
+                <a href="#" data-filter=".people" class="current">Puzzle</a>
+                <a href="#" data-filter=".places">Fight</a>
+                <a href="#" data-filter=".food">Action</a>
+                <a href="#" data-filter=".objects">Board</a>
 
             </div><!-- /portfolioFilter -->
 
@@ -563,112 +466,6 @@
         </div>
     </div>
 
-
-<%--
-
-    <div class="section s3">
-        <div class="inner">
-            <div class="container">
-
-                <div class="services">
-
-                    <div class="services-tops">
-
-                        <h2>Our Services</h2>
-
-                        <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-
-                    </div><!-- /services-tops -->
-
-                    <div class="row">
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="services-box">
-                                <i class="fa fa-cog"></i>
-                                <h6>Photography</h6>
-
-                                <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-
-                            </div><!-- /services-box -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="services-box">
-                                <i class="fa fa-coffee"></i>
-                                <h6>Creative Ideas</h6>
-
-                                <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-
-                            </div><!-- /services-box -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="services-box">
-                                <i class="fa fa-comment-o"></i>
-                                <h6>Consulting</h6>
-
-                                <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-                            </div><!-- /services-box -->
-                        </div>
-
-                    </div>
-
-                </div><!-- /services -->
-
-            </div>
-        </div>
-    </div>
---%>
-
-<%--
-    <div class="section s4">
-        <div class="inner">
-            <div class="container">
-
-                <div class="testimonial">
-
-                    <h2>Testimonial</h2>
-
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="carousel-caption">
-
-                                    <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="carousel-caption">
-
-                                    <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="carousel-caption">
-
-                                    <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
---%>
-
     <div class="transparent-bg">
         <div class="bcg">
             <div class="bcg-bg">
@@ -686,8 +483,10 @@
 
                     <div class="blog-header">
 
-                        <h2>Our Blog</h2>
-                        <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you.</p>
+                        <h2>Our Games and Apps</h2>
+                        <p>
+                            See, Download, Play.. and be Happy. :)
+                        </p>
 
                     </div><!-- /blog-header -->
 

@@ -121,6 +121,13 @@
 
         $('.carousel').carousel();
 
+    $(document).ready(function() {
+        setTimeout(function(){
+            $(".portfolioFilter .current").trigger('click');
+            },1000);
+    });
+
+
     </script>
 
 </head>

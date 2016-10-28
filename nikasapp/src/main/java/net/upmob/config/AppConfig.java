@@ -54,11 +54,18 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	public BasicDataSource dataSource() {
 		
 		BasicDataSource ds = new BasicDataSource();
-	    ds.setDriverClassName("org.postgresql.Driver");
-		ds.setUrl("jdbc:postgresql://192.168.60.102:5432/nikasappdb");
-		ds.setUsername("commonuser");
-		ds.setPassword("password");
-		return ds;
+//	    ds.setDriverClassName("org.postgresql.Driver");
+//		ds.setUrl("jdbc:postgresql://192.168.60.102:5432/nikasappdb");
+//		ds.setUsername("commonuser");
+//		ds.setPassword("password");
+
+	    ds.setDriverClassName("org.hsqldb.jdbcDriver");
+		ds.setUrl("jdbc:hsqldb:hsql:/localhost/test");
+		ds.setUsername("sa");
+		ds.setPassword("");
+
+
+        return ds;
 	}
 	
 	@Bean

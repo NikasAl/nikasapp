@@ -81,12 +81,12 @@
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                 <div class="section-post">
 
-                    <img src="img/img_mg_head.png" alt="post-1" />
+                    <img src="img/img_mg_main.png" alt="post-1" />
 
                     <h2>Mahjong 3D Cube</h2>
 
                     <ul class="post-by">
-                        <li>By:<span>Nikas & Kate</span></li>
+                        <li>By:<span>Nikita & Kate</span></li>
                         <li>Category:<span>Our Apps</span></li>
                         <li>Time:<span>Jan 06 2014</span></li>
                     </ul>

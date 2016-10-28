@@ -62,8 +62,8 @@
 
                     <ul class="inner-link">
                         <li><a href="/">Home</a></li>
-                        <span>/</span>
-                        <li><a href="#">Blog</a></li>
+                        <%--<span>/</span>--%>
+                        <%--<li><a href="#">Blog</a></li>--%>
                     </ul>
 
                 </div><!-- /section-heared -->
@@ -81,15 +81,14 @@
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                 <div class="section-post">
 
-                    <img src="img/img8.jpg" alt="post-1" />
+                    <img src="img/img_mg_head.png" alt="post-1" />
 
-                    <h2>Video Post</h2>
+                    <h2>Mahjong 3D Cube</h2>
 
                     <ul class="post-by">
-                        <li>By:<span>Jewel</span></li>
-                        <li>Category:<span>Web Design</span></li>
-                        <li>tags:<span>HTML, CSS, Javascript</span></li>
-                        <li>Time:<span>Jan 04 2014</span></li>
+                        <li>By:<span>Nikas & Kate</span></li>
+                        <li>Category:<span>Our Apps</span></li>
+                        <li>Time:<span>Jan 06 2014</span></li>
                     </ul>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -98,6 +97,7 @@
 
                 </div><!-- /section-post -->
 
+<%--
                 <a href="#" class="comments">
                     <i class="fa fa-comments-o"></i>
                     Comments
@@ -150,7 +150,6 @@
 
                 </div><!-- /media -->
 
-
                 <div class="comment-box">
 
                     <form role="form">
@@ -165,6 +164,7 @@
                     </form>
 
                 </div><!-- /comment-box -->
+--%>
 
 
             </div>

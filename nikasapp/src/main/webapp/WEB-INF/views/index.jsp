@@ -121,11 +121,12 @@
 
         $('.carousel').carousel();
 
-    $(document).ready(function() {
-        setTimeout(function(){
-            $(".portfolioFilter .current").trigger('click');
-            },1000);
-    });
+        //reload pictures after onload and a time
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".portfolioFilter .current").trigger('click');
+            }, 1000);
+        });
 
 
     </script>
@@ -508,13 +509,13 @@
 
                                     <div class="isotope-item-dtls">
                                         <h3>Mahjong 3D Cube</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                                        <p>You should cleanse the Universe of Mahjong</p>
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
+                                            <a class="first-link" href="mahjong3DCube">
                                                 Get more
                                             </a>
-                                            <a href="blog.html">
+                                            <a href="mahjong3DCube">
                                                 Go
                                             </a>
                                         </div>
@@ -532,7 +533,10 @@
 
                                     <div class="isotope-item-dtls">
                                         <h3>Space Tanks</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                                        <p>
+                                            Defeat the Planet of tanks.
+                                            Play with your friends over a network online
+                                        </p>
 
                                         <div class="blue-btn">
                                             <a class="first-link" href="blog.html">
@@ -552,20 +556,20 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/img_kol1.png" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul </p>
+                                        <h3>FaceBall Balance 3D</h3>
+                                        <p>Control moving FaceBall and prevent it from falling into the abyss</p>
 
 
                                         <div class="blue-btn">
                                             <a class="first-link" href="blog.html">
-                                                read more
+                                                Get more
                                             </a>
                                             <a href="blog.html">
-                                                read more
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->
@@ -783,8 +787,8 @@
 
             -->
 
-            <div align="center" >
-                Nikas Apps @ 2016
+            <div class="text-center" >
+                Nikas Games @ 2016
             </div>
         </div>
     </div>

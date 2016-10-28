@@ -48,6 +48,11 @@ public class WordController {
         return "index";
     }
 
+    @RequestMapping("/mahjong3DCube")
+    public String mahjong3DCube() {
+        return "app_mahjong3DCube";
+    }
+
     @RequestMapping("/indexreg")
     public String reg() {
         return "registration";

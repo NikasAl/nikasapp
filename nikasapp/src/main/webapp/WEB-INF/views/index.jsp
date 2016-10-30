@@ -2,9 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Untitled Document</title>
+    <title>Nikas Games</title>
 
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <%--flavicon--%>
+    <link rel="icon" type="image/png" href="/img/icon.png">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -264,14 +267,15 @@
     <div class="section s2">
         <div class="inner">
 
-
             <div class="portfolioFilter">
 
                 <a href="#" data-filter="*">All Categories</a>
-                <a href="#" data-filter=".people" class="current">Puzzle</a>
+                <a href="#" data-filter=".people" class="current">People</a>
                 <a href="#" data-filter=".places">Fight</a>
                 <a href="#" data-filter=".food">Action</a>
-                <a href="#" data-filter=".objects">Board</a>
+                <a href="#" data-filter=".objects">Obj</a>
+                <a href="#" data-filter=".puzzle">Puzzle</a>
+                <a href="#" data-filter=".board">Board</a>
 
             </div><!-- /portfolioFilter -->
 
@@ -293,55 +297,7 @@
                     </div>
                 </div>
 
-                <div class="people places">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img2.jpg" class="img-responsive"  alt="Responsive image" />
-
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-                <div class="food">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img3.jpg" class="img-responsive"  alt="Responsive image" />
-
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class=" people">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img4.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class=" objects">
+                <div class="objects">
                     <div class="portfolio-img view view-first">
 
                         <img src="img/img5.jpg" class="img-responsive"  alt="Responsive image" />
@@ -357,12 +313,27 @@
                     </div>
                 </div>
 
-                <div class="people places">
+                <div class="objects">
                     <div class="portfolio-img view view-first">
 
-                        <img src="img/img6.jpg" class="img-responsive"  alt="Responsive image" />
+                        <img src="img/img5.jpg" class="img-responsive"  alt="Responsive image" />
 
                         <div class="hover"></div>
+
+                        <div class="mask">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
+                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/img3.jpg" class="img-responsive"  alt="Responsive image" />
+
 
                         <div class="mask">
                             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
@@ -389,22 +360,6 @@
                     </div>
                 </div>
 
-                <div class=" people">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img8.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
                 <div class="food">
                     <div class="portfolio-img view view-first">
 
@@ -420,7 +375,7 @@
                     </div>
                 </div>
 
-                <div class=" people">
+                <div class="people">
                     <div class="portfolio-img view view-first">
 
                         <img src="img/img4.jpg" class="img-responsive"  alt="Responsive image" />
@@ -436,10 +391,26 @@
                     </div>
                 </div>
 
-                <div class=" objects">
+                <div class="people">
                     <div class="portfolio-img view view-first">
 
-                        <img src="img/img5.jpg" class="img-responsive"  alt="Responsive image" />
+                        <img src="img/img8.jpg" class="img-responsive"  alt="Responsive image" />
+
+                        <div class="hover"></div>
+
+                        <div class="mask">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
+                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="people">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/img4.jpg" class="img-responsive"  alt="Responsive image" />
 
                         <div class="hover"></div>
 
@@ -468,6 +439,63 @@
                     </div>
                 </div>
 
+                <div class="people places">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/img2.jpg" class="img-responsive"  alt="Responsive image" />
+
+
+                        <div class="mask">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
+                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="people places">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/img6.jpg" class="img-responsive"  alt="Responsive image" />
+
+                        <div class="hover"></div>
+
+                        <div class="mask">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings heart.</p>
+                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i>fff</a>
+                            <a href="#" class="info">fffffff<i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="puzzle board">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/mg2.jpg" class="img-responsive"  alt="Mahjong Image" />
+
+                        <div class="mask">
+                            <p>Mahjong 3D Cube. The Simplest level. :)</p>
+                            <a href="mahjong3DCube" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="puzzle board">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/mg1.jpg" class="img-responsive"  alt="Mahjong Image" />
+
+                        <div class="mask">
+                            <p>Mahjong 3D Cube. Not a simple level... </p>
+                            <a href="mahjong3DCube" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
 
             </div><!-- /portfolioContainer -->
 
@@ -504,7 +532,7 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img_mg1.png" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_mg1.jpg" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
@@ -529,7 +557,7 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img_bt1.png" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_bt1.jpg" class="img-responsive"  alt="Responsive image" />
 
                                     <div class="isotope-item-dtls">
                                         <h3>Space Tanks</h3>
@@ -556,7 +584,7 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img_kol1.png" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_kol1.jpg" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
@@ -585,19 +613,19 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_aa1.jpg" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                                        <h3>Arimaa 3D</h3>
+                                        <p>Play Arimaa vs AI or a your friend. This is a smart board game</p>
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
-                                                read more
+                                            <a class="first-link" href="arimaa3D">
+                                                Get more
                                             </a>
-                                            <a href="blog.html">
-                                                read more
+                                            <a href="arimaa3D">
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->
@@ -610,18 +638,21 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_ns1.jpg" class="img-responsive"  alt="Responsive image" />
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul</p>
+                                        <h3>2048 Numbers</h3>
+                                        <p>
+                                            The 2048 reincarnation!!!
+                                            This is a great time killer
+                                        </p>
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
-                                                read more
+                                            <a class="first-link" href="numbers2048">
+                                                Get more
                                             </a>
-                                            <a href="blog.html">
-                                                read more
+                                            <a href="numbers2048">
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->
@@ -634,20 +665,22 @@
                             <div class="slide">
                                 <div class="portfolio-img view view-first">
 
-                                    <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
+                                    <img src="img/icons/img_sf1.jpg" class="img-responsive"  alt="Responsive image" />
 
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Item I</h3>
-                                        <p>A wonderful serenity has taken possession of my entire soul </p>
+                                        <h3>Star Finder</h3>
+                                        <p>
+                                            This app allows you to recognize the stars in the sky
+                                        </p>
 
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
-                                                read more
+                                            <a class="first-link" href="starfinder">
+                                                Get more
                                             </a>
-                                            <a href="blog.html">
-                                                read more
+                                            <a href="starfinder">
+                                                Go
                                             </a>
                                         </div>
                                     </div><!--/isotope-item-dtls-->
@@ -656,7 +689,6 @@
 
                         </div>
                     </div>
-
 
 
                 </div><!-- container -->

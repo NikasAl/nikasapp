@@ -470,7 +470,7 @@
                     </div>
                 </div>
 
-
+                <%--games and apps--%>
                 <div class="puzzle board">
                     <div class="portfolio-img view view-first">
 
@@ -492,6 +492,58 @@
                         <div class="mask">
                             <p>Mahjong 3D Cube. Not a simple level... </p>
                             <a href="mahjong3DCube" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="puzzle">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/crtree1.jpg" class="img-responsive"  alt="XMasTree Image" />
+
+                        <div class="mask">
+                            <p>XMasTree Light Up...</p>
+                            <a href="xmastree" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="puzzle">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/crtree2.jpg" class="img-responsive"  alt="XMasTree Image" />
+
+                        <div class="mask">
+                            <p>XMasTree Light Up...</p>
+                            <a href="xmastree" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="board">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/aa1.jpg" class="img-responsive"  alt="Arimaa 3D Image" />
+
+                        <div class="mask">
+                            <p>Arimaa 3D. Try to beat the AI</p>
+                            <a href="arimaa3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="board">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/aa2.jpg" class="img-responsive"  alt="Arimaa 3D Image" />
+
+                        <div class="mask">
+                            <p>Arimaa 3D. Try to beat the AI</p>
+                            <a href="arimaa3D" class="info"><i class="fa fa-arrow-right"></i></a>
                         </div>
 
                     </div>
@@ -560,7 +612,7 @@
                                     <img src="img/icons/img_bt1.jpg" class="img-responsive"  alt="Responsive image" />
 
                                     <div class="isotope-item-dtls">
-                                        <h3>Space Tanks</h3>
+                                        <h3>Space Tanks 3D</h3>
                                         <p>
                                             Defeat the Planet of tanks.
                                             Play with your friends over a network online
@@ -597,6 +649,86 @@
                                                 Get more
                                             </a>
                                             <a href="blog.html">
+                                                Go
+                                            </a>
+                                        </div>
+                                    </div><!--/isotope-item-dtls-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                            <div class="slide">
+                                <div class="portfolio-img view view-first">
+
+                                    <img src="img/icons/img_crtree1.jpg" class="img-responsive"  alt="Responsive image" />
+
+
+                                    <div class="isotope-item-dtls">
+                                        <h3>XMas Tree Light Up</h3>
+                                        <p>Light Up the Christmas Tree. Compete with your friends</p>
+
+                                        <div class="blue-btn">
+                                            <a class="first-link" href="xmastree">
+                                                Get more
+                                            </a>
+                                            <a href="xmastree">
+                                                Go
+                                            </a>
+                                        </div>
+                                    </div><!--/isotope-item-dtls-->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                            <div class="slide">
+                                <div class="portfolio-img view view-first">
+
+                                    <img src="img/icons/img_ftl1.jpg" class="img-responsive"  alt="Responsive image" />
+
+                                    <div class="isotope-item-dtls">
+                                        <h3>Follow The Light 3D</h3>
+                                        <p>
+                                            What do you know about the Light? Follow it and learn
+                                        </p>
+
+                                        <div class="blue-btn">
+                                            <a class="first-link" href="followthelight">
+                                                Get more
+                                            </a>
+                                            <a href="followthelight">
+                                                Go
+                                            </a>
+                                        </div>
+                                    </div><!--/isotope-item-dtls-->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                            <div class="slide">
+                                <div class="portfolio-img view view-first">
+
+                                    <img src="img/icons/img_grch1.jpg" class="img-responsive"  alt="Responsive image" />
+
+                                    <div class="isotope-item-dtls">
+                                        <h3>Growing Cherry</h3>
+                                        <p>
+                                            Evolution continue... because these Cherry Gardens are growing... and you helping it
+                                        </p>
+
+                                        <div class="blue-btn">
+                                            <a class="first-link" href="growingcherry">
+                                                Get more
+                                            </a>
+                                            <a href="growingcherry">
                                                 Go
                                             </a>
                                         </div>

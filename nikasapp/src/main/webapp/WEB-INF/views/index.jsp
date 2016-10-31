@@ -270,65 +270,15 @@
             <div class="portfolioFilter">
 
                 <a href="#" data-filter="*">All Categories</a>
-                <a href="#" data-filter=".people" class="current">People</a>
-                <a href="#" data-filter=".places">Fight</a>
-                <a href="#" data-filter=".food">Action</a>
-                <a href="#" data-filter=".objects">Obj</a>
+                <a href="#" data-filter=".action" class="current">Action</a>
                 <a href="#" data-filter=".puzzle">Puzzle</a>
                 <a href="#" data-filter=".board">Board</a>
+                <a href="#" data-filter=".education">Education</a>
 
             </div><!-- /portfolioFilter -->
 
             <div class="portfolioContainer">
-
-                <div class="objects">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img1.jpg" class="img-responsive"  alt="Responsive image" />
-
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <!--<a href="#" class="info">Read More</a>-->
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="objects">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img5.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="objects">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img5.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
+<%--
                 <div class="food">
                     <div class="portfolio-img view view-first">
 
@@ -343,133 +293,7 @@
 
                     </div>
                 </div>
-
-                <div class="food">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img7.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="food">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img3.jpg" class="img-responsive"  alt="Responsive image" />
-
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img4.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img8.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img4.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people places">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img6.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people places">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img2.jpg" class="img-responsive"  alt="Responsive image" />
-
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i></a>
-                            <a href="#" class="info"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="people places">
-                    <div class="portfolio-img view view-first">
-
-                        <img src="img/img6.jpg" class="img-responsive"  alt="Responsive image" />
-
-                        <div class="hover"></div>
-
-                        <div class="mask">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings heart.</p>
-                            <a href="img/img1.jpg" class="info group2" title="Me and my grandfather on the Ohoopee"><i class="fa fa-search-plus"></i>fff</a>
-                            <a href="#" class="info">fffffff<i class="fa fa-arrow-right"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-
+--%>
                 <%--games and apps--%>
                 <div class="puzzle board">
                     <div class="portfolio-img view view-first">
@@ -523,13 +347,39 @@
                     </div>
                 </div>
 
+                <div class="puzzle">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/grch1.jpg" class="img-responsive"  alt="Growing Cherry Image" />
+
+                        <div class="mask">
+                            <p>Cherry is growing.. Become a gardener of evolution</p>
+                            <a href="growingcherry" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="puzzle">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/numbers1.jpg" class="img-responsive"  alt="2048 Numbers Image" />
+
+                        <div class="mask">
+                            <p>Popular game 2048 with colorful design and features</p>
+                            <a href="numbers2048" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="board">
                     <div class="portfolio-img view view-first">
 
                         <img src="img/screens/aa1.jpg" class="img-responsive"  alt="Arimaa 3D Image" />
 
                         <div class="mask">
-                            <p>Arimaa 3D. Try to beat the AI</p>
+                            <p>Arimaa 3D. Try to beat the Artificial Intelligence</p>
                             <a href="arimaa3D" class="info"><i class="fa fa-arrow-right"></i></a>
                         </div>
 
@@ -542,8 +392,134 @@
                         <img src="img/screens/aa2.jpg" class="img-responsive"  alt="Arimaa 3D Image" />
 
                         <div class="mask">
-                            <p>Arimaa 3D. Try to beat the AI</p>
+                            <p>Arimaa 3D. Try to beat the Artificial Intelligence</p>
                             <a href="arimaa3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/faceball1.jpg" class="img-responsive"  alt="FaceBall Image" />
+
+                        <div class="mask">
+                            <p>FaceBall 3D. Control moving FaceBall and prevent it from falling into the abyss</p>
+                            <a href="faceball3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/faceball2.jpg" class="img-responsive"  alt="FaceBall Image" />
+
+                        <div class="mask">
+                            <p>FaceBall 3D. Control moving FaceBall and prevent it from falling into the abyss</p>
+                            <a href="faceball3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <%--Space tanks 3D--%>
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/btank1.jpg" class="img-responsive" alt="Space Tank 3D Image"/>
+
+                        <div class="mask">
+                            <p>
+                                Space Tank 3D. Defeat the Planet of tanks.
+                                Play with your friends over a network online
+                            </p>
+                            <a href="spacetanks3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/btank2.jpg" class="img-responsive" alt="Space Tank 3D Image"/>
+
+                        <div class="mask">
+                            <p>
+                                Space Tank 3D. Defeat the Planet of tanks.
+                                Play with your friends over a network online
+                            </p>
+                            <a href="spacetanks3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <%--follow the light 3D--%>
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/ftl1.jpg" class="img-responsive" alt="Follow The Light 3D Image"/>
+
+                        <div class="mask">
+                            <p>What do you know about the Light?</p>
+                            <a href="follow3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="action">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/ftl2.jpg" class="img-responsive" alt="Follow The Light 3D Image"/>
+
+                        <div class="mask">
+                            <p>What do you know about the Light?</p>
+                            <a href="follow3D" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <%--star finder--%>
+                <div class="education">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/sf1.jpg" class="img-responsive" alt="Star Finder Image"/>
+
+                        <div class="mask">
+                            <p>Star Finder - the application allows you to recognize the stars in the sky.</p>
+                            <a href="starfinder" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="education">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/sf2.jpg" class="img-responsive" alt="Star Finder Image"/>
+
+                        <div class="mask">
+                            <p>Star Finder - the application allows you to recognize the stars in the sky.</p>
+                            <a href="starfinder" class="info"><i class="fa fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="education">
+                    <div class="portfolio-img view view-first">
+
+                        <img src="img/screens/sf3.jpg" class="img-responsive" alt="Star Finder Image"/>
+
+                        <div class="mask">
+                            <p>Star Finder - the application allows you to recognize the stars in the sky.</p>
+                            <a href="starfinder" class="info"><i class="fa fa-arrow-right"></i></a>
                         </div>
 
                     </div>
@@ -558,7 +534,9 @@
         <div class="bcg">
             <div class="bcg-bg">
                 <h1>"Game is the engine of progress."</h1>
-                <h6>Nikas</h6>
+                <h4>Nikas</h4>
+                <h6>(The last Deep Learning success related to the success of the multi GPU graphics cards development)</h6>
+                <%--<h5>We need graphics cards to play games)</h5>--%>
             </div>
         </div>
     </div><!-- /transparent-bg -->

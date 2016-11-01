@@ -252,11 +252,10 @@
                 </div><!-- /creative-minds -->
 
                 <div id="social-contect" class="social-contect">
-                    <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Dribbble"><i class="fa fa-dribbble"></i></a>
-                    <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                    <a href="#" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="https://vk.com/mahjong3d" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Vkontakte"><i class="fa fa-vk"></i></a>
+                    <a href="https://www.youtube.com/user/electron252/videos" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="YouTube"><i class="fa fa-youtube"></i></a>
+                    <a href="https://plus.google.com/communities/110968778109785173324" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="https://play.google.com/store/apps/dev?id=6360854639703788826" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google Play"><i class="fa fa-play"></i></a>
                 </div>
 
             </div><!-- /about-artical -->
@@ -535,7 +534,7 @@
             <div class="bcg-bg">
                 <h1>"Game is the engine of progress."</h1>
                 <h4>Nikas</h4>
-                <h6>(The last Deep Learning success related to the success of the multi GPU graphics cards development)</h6>
+                <h6>(The last Deep Learning success related to the multi GPU Graphics Cards development success)</h6>
                 <%--<h5>We need graphics cards to play games)</h5>--%>
             </div>
         </div>

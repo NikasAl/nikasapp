@@ -906,10 +906,14 @@ ul.inner-link li a {
 	}
 	
 .section-post img {
-	height: 300px;
+	height: auto;
 	width: 100%;
 	}
-	
+
+.section-post-300px-img {
+	height: 300px !important;
+	}
+
 ul.post-by {
 	margin: 0px;
 	padding: 0px;

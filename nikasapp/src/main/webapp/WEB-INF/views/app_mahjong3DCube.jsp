@@ -57,7 +57,7 @@
                     <h6>You should cleanse the Universe of Mahjong</h6>
 
                     <ul class="inner-link">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/#s6">Home</a></li>
                         <%--<span>/</span>--%>
                         <%--<li><a href="#">Blog</a></li>--%>
                     </ul>
@@ -77,7 +77,7 @@
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                 <div class="section-post">
 
-                    <img src="img/img_mg_main.png" alt="post-1" />
+                    <img class="section-post-300px-img" src="img/img_mg_main.png" alt="post-1" />
 
                     <h2>Mahjong 3D Cube</h2>
 
@@ -87,9 +87,41 @@
                         <li>Time:<span>Jan 06 2014</span></li>
                     </ul>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        Mahjong solitaire is popular board game among the hundreds of millions of people for many years. This new three-dimensional sequel takes the epic game to a new level, because the action takes place in space.
+                    </p>
+                    <p>
+                        This type of solitaire is simple and exciting with grand buildings. No matter how much free time you have - a few minutes or a few hours - it will be your perfect time killer!
+                    </p>
+                    <p>
+                        Rules of the game:<br>
+                        You should cleanse the Universe of Mahjong from dices. To do this, locate any dice, find identical one and select it. However, you can choose only those cube upper bound of which is not closed.
+                        Be careful because success depends on the order of removal.
+                    <p>
 
-                    <p>Ut accumsan est augue, eu bibendum ipsum congue et. Pellentesque ac pellentesque lacus, sed ultrices turpis. Integer ut nunc nec libero porttitor aliquet quis vel justo. Nulla luctus luctus elementum. Integer blandit lobortis nisl, eu elementum purus dignissim at. Cras tempor dui eu est posuere, eget euismod leo consectetur. Donec pellentesque felis ut tellus scelerisque, eget adipiscing nibh gravida. Phasellus odio eros, consequat vitae enim non, fermentum semper urna. Aliquam pulvinar elit sit amet neque laoreet, eu vestibulum tellus venenatis. Donec quis nunc risus.</p>
+<%--
+                    <h3>Features (Characteristics):</h3>
+                    <ul class="list-group">
+                        <li>- The action takes place in a 3D World of the Universe of Mojang</li>
+                        <li>- More than 100 puzzles</li>
+                        <li>- Management of multi - rotating in space</li>
+                        <li>- More then 40 tile types</li>
+                        <li>- Zoom in / out</li>
+                        <li>- Simple and complex tasks</li>
+                        <li>And much more!</li>
+                    </ul>
+--%>
+
+                    <p>
+                        This free game is also known as shanghai mah-jong , taipei, kyodai or chinese mojang but all its classical options involve the selection of identical pairs of chips.
+                    </p>
+
+                    <h3>Screenshots:</h3>
+                    <img src="img/screens/mg1.jpg"/>
+                    <img src="img/screens/mg2.jpg"/>
+
+                    <h3>Video:</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/09cSfOZTwdM" frameborder="0" allowfullscreen></iframe>
 
                 </div><!-- /section-post -->
 
@@ -168,19 +200,42 @@
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <div class="sidebar">
 
-                    <form class="form-inline" role="form">
+                    <img width="100%" src="img/icons/img_mg1.jpg"/>
+
+
+<%--                    <form class="form-inline" role="form">
                         <div class="form-group">
                             <input type="search" class="form-control" id="exampleInputSearch2" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-default pull-right"><i class="fa fa-search"></i></button>
-                    </form>
+                    </form>--%>
 
 
                     <div class="sidebar-text">
-                        <h2>Text</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h2>Download</h2>
+                        <p>
+                            <ul class="category">v0.9.3
+                                <li><a href="https://play.google.com/store/apps/details?id=ru.electronikas.boxpairs">Google Play<span class="count">0</span></a></li>
+                                <li><a href="/apk/boxpairs-free-release.apk">APK (19Mb)<span class="count">0</span></a></li>
+                            </ul>
+
+                        </p>
                     </div><!-- /sidebar-text -->
 
+                    <div class="sidebar-text">
+                        <h2>Features</h2>
+
+                        <ul class="category">
+                            <li><a href="#">The action takes place in a 3D World of the Universe of Mahjong</a></li>
+                            <li><a href="#">More 100 puzzles</a></li>
+                            <li><a href="#">More 40 tile types</a></li>
+                            <li><a href="#">Management of multi - rotating in the space</a></li>
+                            <li><a href="#">Zoom in / out</a></li>
+                            <li><a href="#">Simple and complex tasks</a></li>
+                            <li><a href="#">And much more!</a></li>
+                        </ul>
+                    </div><!-- /sidebar-text -->
+<%--
                     <div class="sidebar-text">
                         <h2>Categories</h2>
 
@@ -206,10 +261,12 @@
                         </ul>
 
                     </div><!-- /sidebar-text -->
+--%>
 
 
                 </div><!-- /sidebar -->
             </div>
+
         </div>
 
     </div>

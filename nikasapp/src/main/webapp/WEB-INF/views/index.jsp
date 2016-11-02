@@ -145,7 +145,7 @@
             <div class="container">
 
                 <div class="large-logo">
-                    <a href="#"><img src="img/logo-large.png" alt="logo" /></a>
+                    <a href="https://play.google.com/store/apps/dev?id=6360854639703788826"><img src="img/logo-large.png" alt="logo" /></a>
                 </div>
 
                 <div class="vticker">

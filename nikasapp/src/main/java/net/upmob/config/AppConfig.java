@@ -92,7 +92,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/images/**").addResourceLocations("/images/");
         registry.addResourceHandler("/img/**").addResourceLocations("/img/");
         registry.addResourceHandler("/js/**").addResourceLocations("/js/");
-
+        registry.addResourceHandler("/apk/**").addResourceLocations("/apk/");
     }
 	
 }

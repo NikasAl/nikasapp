@@ -596,10 +596,10 @@
                                         </p>
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
+                                            <a class="first-link" href="spacetanks3D">
                                                 Get more
                                             </a>
-                                            <a href="blog.html">
+                                            <a href="spacetanks3D">
                                                 Go
                                             </a>
                                         </div>

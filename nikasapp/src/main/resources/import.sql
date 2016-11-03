@@ -1,4 +1,3 @@
--- insert into words (eng_word, rus_word) values ('one', 'один');
 insert into users (username, password, enabled) values ('user1', '$2a$10$2sNO3jkJgf5SMUHBQy7V/OZuUO96x56l8RRrFVbaIorJsMRyWVJk6', true);
 insert into users (username, password, enabled) values ('user2', '$2a$10$2sNO3jkJgf5SMUHBQy7V/OZuUO96x56l8RRrFVbaIorJsMRyWVJk6', true);
 insert into users (username, password, enabled) values ('user3', '$2a$10$2sNO3jkJgf5SMUHBQy7V/OZuUO96x56l8RRrFVbaIorJsMRyWVJk6', true);

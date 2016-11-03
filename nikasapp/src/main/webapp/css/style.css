@@ -820,12 +820,22 @@ textarea.form-control {
 	width: 100%;
 	min-height: 360px;
 	position: relative;
-	background: url(/img/img_mg_head.png);
+	background: url(/img/screens/mg_main.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover; 
 	}
-	
+
+.inner-container-btank {
+	width: 100%;
+	min-height: 360px;
+	position: relative;
+	background: url(/img/screens/btank_main.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .section-heared {
 	width: 100%;
 	height: auto;

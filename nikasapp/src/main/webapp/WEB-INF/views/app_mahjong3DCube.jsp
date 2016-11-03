@@ -52,7 +52,6 @@
 
                 <div class="section-heared">
                     <h1>Mahjong 3D Cube Solitaire</h1>
-                    <span></span>
 
                     <h6>You should cleanse the Universe of Mahjong</h6>
 
@@ -77,7 +76,7 @@
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                 <div class="section-post">
 
-                    <img class="section-post-300px-img" src="img/img_mg_main.png" alt="post-1" />
+                    <img class="section-post-300px-img" src="img/screens/mg_head.jpg" alt="post-1" />
 
                     <h2>Mahjong 3D Cube</h2>
 
@@ -94,23 +93,10 @@
                         This type of solitaire is simple and exciting with grand buildings. No matter how much free time you have - a few minutes or a few hours - it will be your perfect time killer!
                     </p>
                     <p>
-                        Rules of the game:<br>
+                        Rules of the game:</br>
                         You should cleanse the Universe of Mahjong from dices. To do this, locate any dice, find identical one and select it. However, you can choose only those cube upper bound of which is not closed.
                         Be careful because success depends on the order of removal.
-                    <p>
-
-<%--
-                    <h3>Features (Characteristics):</h3>
-                    <ul class="list-group">
-                        <li>- The action takes place in a 3D World of the Universe of Mojang</li>
-                        <li>- More than 100 puzzles</li>
-                        <li>- Management of multi - rotating in space</li>
-                        <li>- More then 40 tile types</li>
-                        <li>- Zoom in / out</li>
-                        <li>- Simple and complex tasks</li>
-                        <li>And much more!</li>
-                    </ul>
---%>
+                    </p>
 
                     <p>
                         This free game is also known as shanghai mah-jong , taipei, kyodai or chinese mojang but all its classical options involve the selection of identical pairs of chips.

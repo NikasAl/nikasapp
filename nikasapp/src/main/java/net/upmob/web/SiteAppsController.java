@@ -1,6 +1,5 @@
 package net.upmob.web;
 
-import net.upmob.domain.Word;
 import net.upmob.service.WordService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
@@ -20,14 +19,12 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 @Controller
-public class WordController {
+public class SiteAppsController {
 
     @Autowired
     private WordService wordService;
 
-//    @Autowired
-//    private AnimalsService animalsService;
-
+/*
     @RequestMapping("/word")
     public String listWord(Map<String, Object> map) {
 
@@ -36,6 +33,7 @@ public class WordController {
 
         return "words/words";
     }
+*/
 
     //pages block
     @RequestMapping("/index")
@@ -48,68 +46,59 @@ public class WordController {
         return "index";
     }
 
+    //apps pages
     @RequestMapping("/mahjong3DCube")
     public String mahjong3DCube() {
         return "app_mahjong3DCube";
     }
 
-    @RequestMapping("/indexreg")
-    public String reg() {
-        return "registration";
+    @RequestMapping("/spacetanks3D")
+    public String spacetanks3D(Map<String, Object> map) {
+        map.put("title", "Space Tank 3D");
+        map.put("mainImgStyle", "inner-container-btank");
+        map.put("shortSlogan", "Defeat the Planet of tanks.\n" +
+                               "Play with your friends over a network online\n");
+        map.put("headImg", "btank_head.jpg");
+        map.put("createDate", "June 06 2015");
+        map.put("description",
+                "<p>\n" +
+                "    This is one of the arcade Tank games which make you be the hero of tank battle.\n" +
+                "</p>\n" +
+                "\n" +
+                "<p>\n" +
+                "    Explode all enemy to save turret of your panzer.\n" +
+                "    Play battle in cyberspace city in urban strike mode\n" +
+                "</p>\n" +
+                "\n" +
+                "<p>\n" +
+                "    To defeat the aggressor, enslave the universe, you will need persistence and tactics. Not all enemy easily to explode. Some of them are armed with these weapons that cause you to strain. Great  Battle with iron cloud will you. Overcome 27 level firestorms. The World of the flat Planet need your help. Maze of fire is waiting you.\n" +
+                "\n" +
+                "    Drive the tank with the aid of the touchpad and methane projectiles towards the enemy invaders. Race with tank is unusual.\n" +
+                "    Zoom / unzoom the battlefield to select the appropriate view.\n" +
+                "    Turn view by horizontal paging gestures.\n" +
+                "    Collect points - buy weapons.\n" +
+                "    Save tank which play on your side.\n" +
+                "    Your hero can collect shells and stick.\n" +
+                "    Play with your friends in multiplayer mode online.\n" +
+                "    The tank war is waiting you\n" +
+                "\n" +
+                "</p>\n");
+        map.put("screenList", "btank1.jpg,btank2.jpg".split(","));
+        map.put("video", "FbhrLMC6iWw");
+        map.put("icon", "img_bt1.jpg");
+        map.put("version", "v1.4");
+        map.put("packageId", "ru.electronikas.tanksmashgpfree");
+        map.put("apkFileName", "tanks-gp-free-release.apk");
+        map.put("apkSize", "14");
+        map.put("features", "3D battlefield,5 types of weapon,Multiplayer / Duel / Network,Zoom in / out camera,30+ levels,And much more!".split(","));
+
+        return "app";
     }
-
-    @RequestMapping("/indexregw")
-    public String regWorker() {
-        return "registration_worker";
-    }
-
-    @RequestMapping("/indexregc")
-    public String regCustomer() {
-        return "registration_customer";
-    }
-
-    @RequestMapping("/indexrules")
-    public String rules() {
-        return "rules";
-    }
-
-
-/*    @RequestMapping(value = "/promote")
-    public ModelAndView protectedPage() {
-
-        ModelAndView model = new ModelAndView();
-
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        UserDetails userDetail = (UserDetails) auth.getPrincipal();
-        System.out.println(userDetail);
-
-        model.addObject("username", userDetail.getUsername());
-        model.setViewName("promote/customerhome");
-        return model;
-
-    }*/
-
-    //service block
-
-    @RequestMapping("/indexregform")
-    public String registrationForm() {
-        //пытаться зарегистрировать заказчика
-        //переход на страницу (не)успешной регистрации
-        return "index";
-    }
-
-    @RequestMapping("/indexauth")
-    public String authForm() {
-        return "index";
-    }
-    //mobile service block
 
 
     @RequestMapping("/deleteword/{wordId}")
     public String deleteWord(@PathVariable("wordId") Integer wordId) {
-
         wordService.removeWord(wordId);
-
         return "redirect:/word";
     }
 

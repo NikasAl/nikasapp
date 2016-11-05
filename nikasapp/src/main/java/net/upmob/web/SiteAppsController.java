@@ -16,10 +16,31 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
+import java.util.ResourceBundle;
 
 @Controller
 public class SiteAppsController {
+
+    enum appNames {
+        mahjong, spacetank3D
+    }
+
+    private static Map<String, ResourceBundle> brs() {
+        Map<String, ResourceBundle> RBs = new HashMap<String, ResourceBundle>();
+        String lang = "en"; //Assign the correct language either by page or user-selected or browser language etc.
+
+        ResourceBundle mgRB = ResourceBundle.getBundle(appNames.mahjong.name(), new Locale(lang));
+        RBs.put(appNames.mahjong.name(), mgRB);
+
+        ResourceBundle spRB = ResourceBundle.getBundle(appNames.spacetank3D.name(), new Locale(lang));
+        RBs.put(appNames.spacetank3D.name(), spRB);
+
+        return RBs;
+    }
 
     @Autowired
     private WordService wordService;
@@ -48,8 +69,13 @@ public class SiteAppsController {
 
     //apps pages
     @RequestMapping("/mahjong3DCube")
-    public String mahjong3DCube() {
-        return "app_mahjong3DCube";
+    public String mahjong3DCube(Map<String, Object> map) throws UnsupportedEncodingException {
+        ResourceBundle mRB = brs().get(appNames.mahjong.name());
+
+        for (String key : mRB.keySet()) {
+            map.put(key, mRB.getString(key));
+        }
+        return "app";
     }
 
     @RequestMapping("/spacetanks3D")

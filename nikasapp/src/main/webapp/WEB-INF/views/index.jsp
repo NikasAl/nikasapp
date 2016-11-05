@@ -622,10 +622,10 @@
 
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="blog.html">
+                                            <a class="first-link" href="faceball3D">
                                                 Get more
                                             </a>
-                                            <a href="blog.html">
+                                            <a href="faceball3D">
                                                 Go
                                             </a>
                                         </div>

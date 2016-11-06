@@ -3,6 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Nikas Games</title>
+    <meta name="description" content="Nikas Games android applications. Features screenshots stories and tales. All about my games">
+    <meta name="keywords" content="Nikas, android games, free, бесплатные игры, андроид, OldGames, android">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 

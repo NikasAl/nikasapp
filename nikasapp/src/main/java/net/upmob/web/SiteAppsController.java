@@ -44,17 +44,6 @@ public class SiteAppsController {
     @Autowired
     private WordService wordService;
 
-/*
-    @RequestMapping("/word")
-    public String listWord(Map<String, Object> map) {
-
-        map.put("word", new Word());
-        map.put("wordList", wordService.listWord());
-
-        return "words/words";
-    }
-*/
-
     //pages block
     @RequestMapping("/index")
     public String mainPoint() {

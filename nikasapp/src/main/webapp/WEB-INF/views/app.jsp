@@ -85,7 +85,9 @@
                         <h2>Download</h2>
                         <p>
                         <ul class="category">${version}
+                            <c:if test="${not empty packageId}">
                             <li><a href="https://play.google.com/store/apps/details?id=${packageId}">Google Play<span class="count">0</span></a></li>
+                            </c:if>
                             <li><a href="/apk/${apkFileName}">APK (${apkSize}Mb)<span class="count">0</span></a></li>
                         </ul>
 

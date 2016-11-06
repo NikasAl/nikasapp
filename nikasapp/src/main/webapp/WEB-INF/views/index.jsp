@@ -235,7 +235,7 @@
                     <div class="row-cm">
                         <div class="col-cm">
                             <figure class="cm-item">
-                                <img alt="" src="img/c-1.jpg">
+                                <img alt="" src="img/nikita.jpg">
                                 <figcaption></figcaption>
                             </figure>
                             <h4 class="cm-title" data-animate="fadeInDown" style="">Nikita</h4>
@@ -243,7 +243,7 @@
                         </div>
                         <div class="col-cm">
                             <figure class="cm-item">
-                                <img alt="" src="img/c-3.jpg">
+                                <img alt="" src="img/kate.jpg">
                                 <figcaption></figcaption>
                             </figure>
                             <h4 class="cm-title" data-animate="fadeInDown" style="">Kate</h4>

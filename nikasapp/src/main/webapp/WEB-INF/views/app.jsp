@@ -54,7 +54,7 @@
                     <h2>${title}</h2>
 
                     <ul class="post-by">
-                        <li>By:<span>Nikita & Kate</span></li>
+                        <li>By:<span>${author}</span></li>
                         <li>Category:<span>Our Apps</span></li>
                         <li>Time:<span>${createDate}</span></li>
                     </ul>

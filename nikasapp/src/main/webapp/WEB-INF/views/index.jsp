@@ -678,10 +678,10 @@
                                         </p>
 
                                         <div class="blue-btn">
-                                            <a class="first-link" href="followthelight">
+                                            <a class="first-link" href="follow3D">
                                                 Get more
                                             </a>
-                                            <a href="followthelight">
+                                            <a href="follow3D">
                                                 Go
                                             </a>
                                         </div>

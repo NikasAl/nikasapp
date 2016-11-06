@@ -26,7 +26,7 @@ import java.util.ResourceBundle;
 public class SiteAppsController {
 
     enum AppNames {
-        mahjong, spacetank3D, faceball3D, xmastree;
+        mahjong, spacetank3D, faceball3D, xmastree, follow3D;
     }
 
     private static Map<String, ResourceBundle> brs() {
@@ -86,6 +86,13 @@ public class SiteAppsController {
     @RequestMapping("/xmastree")
     public String xmastree(Map<String, Object> map) {
         ResourceBundle mRB = brs().get(AppNames.xmastree.name());
+        fillMapWithResources(map, mRB);
+        return "app";
+    }
+
+    @RequestMapping("/follow3D")
+    public String follow3D(Map<String, Object> map) {
+        ResourceBundle mRB = brs().get(AppNames.follow3D.name());
         fillMapWithResources(map, mRB);
         return "app";
     }

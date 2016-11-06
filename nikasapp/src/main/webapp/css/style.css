@@ -875,6 +875,16 @@ textarea.form-control {
 	background-size: cover;
 }
 
+.inner-container-aa {
+	width: 100%;
+	min-height: 360px;
+	position: relative;
+	background: url(/img/screens/aa_main.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .section-heared {
 	width: 100%;
 	height: auto;

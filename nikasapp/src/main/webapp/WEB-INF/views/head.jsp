@@ -7,8 +7,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>${title}</title>
-<meta name="description" content="${metaDescription}">
-<meta name="keywords" content="${metaKeywords}">
+<meta name="description" content="${metaDescription}" />
+<meta name="keywords" content="${metaKeywords}" />
 
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 

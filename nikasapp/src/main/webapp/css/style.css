@@ -893,6 +893,16 @@ textarea.form-control {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.inner-container-starfinder {
+	width: 100%;
+	min-height: 360px;
+	position: relative;
+	background: url(/img/screens/sf_main.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .section-heared {
 	width: 100%;
 	height: auto;

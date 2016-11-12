@@ -24,20 +24,20 @@
 
     <link rel="stylesheet/less" type="text/css" href="css/style.less" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 
-    <script	src="js/bootstrap.min.js" type="text/javascript" />
+    <script	src="js/bootstrap.min.js" type="text/javascript" ></script>
 
-    <script	src="js/jquery.smint.js" type="text/javascript" />
+    <script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
-    <script type="text/javascript" src="js/jquery.easing.min.js" />
-    <script type="text/javascript" src="js/jquery.easy-ticker.js" />
+    <script type="text/javascript" src="js/jquery.easing.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.easy-ticker.js" ></script>
 
-    <script src="js/less.js" type="text/javascript" />
+    <script src="js/less.js" type="text/javascript" ></script>
 
-    <script src="js/isotop.js" type="text/javascript" />
+    <script src="js/isotop.js" type="text/javascript" ></script>
 
-    <script src="js/jquery.colorbox.js" type="text/javascript" />
+    <script src="js/jquery.colorbox.js" type="text/javascript" ></script>
 
     <script type="text/javascript">
 

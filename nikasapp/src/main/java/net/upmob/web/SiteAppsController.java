@@ -31,7 +31,7 @@ public class SiteAppsController {
 
     private static Map<String, ResourceBundle> brs() {
         Map<String, ResourceBundle> RBs = new HashMap<String, ResourceBundle>();
-        String lang = "en"; //Assign the correct language either by page or user-selected or browser language etc.
+        String lang = "ru"; //"en"; //Assign the correct language either by page or user-selected or browser language etc.
 
         for(AppNames appName : AppNames.values()) {
             ResourceBundle mgRB = ResourceBundle.getBundle(appName.name(), new Locale(lang));

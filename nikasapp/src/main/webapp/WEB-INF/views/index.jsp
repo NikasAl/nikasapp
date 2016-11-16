@@ -258,6 +258,7 @@
                     <a href="https://www.youtube.com/user/electron252/videos" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="YouTube"><i class="fa fa-youtube"></i></a>
                     <a href="https://plus.google.com/communities/110968778109785173324" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
                     <a href="https://play.google.com/store/apps/dev?id=6360854639703788826" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Google Play"><i class="fa fa-play"></i></a>
+                    <a href="https://github.com/NikasAl" target="_blank" class="tooltip-hide" data-placement="top" data-toggle="tooltip" type="button" data-original-title="Git Hub"><i class="fa fa-github"></i></a>
                 </div>
 
             </div><!-- /about-artical -->
